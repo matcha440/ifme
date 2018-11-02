@@ -423,8 +423,8 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.4.0)
-    rubocop-rspec (1.30.0)
-      rubocop (>= 0.58.0)
+    rubocop-rspec (1.30.1)
+      rubocop (>= 0.60.0)
     ruby-graphviz (1.2.3)
     ruby-progressbar (1.10.0)
     rubyzip (1.2.2)
@@ -442,7 +442,7 @@ GEM
       rake
     sdoc (1.0.0)
       rdoc (>= 5.0)
-    selenium-webdriver (3.14.1)
+    selenium-webdriver (3.141.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2, >= 1.2.2)
     sentry-raven (2.7.4)
@@ -571,7 +571,7 @@ DEPENDENCIES
   rubocop-rspec
   sass-rails (~> 5.0, >= 5.0.6)
   sdoc (= 1.0.0)
-  selenium-webdriver (~> 3.14.1)
+  selenium-webdriver (~> 3.141.0)
   sentry-raven
   simplecov
   spring
