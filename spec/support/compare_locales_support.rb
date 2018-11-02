@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 module CompareLocalesSupport
   LOCALES_DIR = './config/locales'
   LOCALES_FILES = {
@@ -12,6 +11,7 @@ module CompareLocalesSupport
     italian: "#{LOCALES_DIR}/it.yml",
     vietnamese: "#{LOCALES_DIR}/vi.yml",
     german: "#{LOCALES_DIR}/de.yml",
+    french: "#{LOCALES_DIR}/fr.yml",
     japanese: "#{LOCALES_DIR}/ja.yml",
     devise_english: "#{LOCALES_DIR}/devise.en.yml",
     devise_spanish: "#{LOCALES_DIR}/devise.es.yml",
@@ -22,6 +22,7 @@ module CompareLocalesSupport
     devise_italian: "#{LOCALES_DIR}/devise.it.yml",
     devise_vietnamese: "#{LOCALES_DIR}/devise.vi.yml",
     devise_german: "#{LOCALES_DIR}/devise.de.yml",
+    devise_french: "#{LOCALES_DIR}/devise.fr.yml",
     devise_japanese: "#{LOCALES_DIR}/devise.ja.yml",
     devise_invitable_english: "#{LOCALES_DIR}/devise_invitable.en.yml",
     devise_invitable_spanish: "#{LOCALES_DIR}/devise_invitable.es.yml",
@@ -32,6 +33,7 @@ module CompareLocalesSupport
     devise_invitable_italian: "#{LOCALES_DIR}/devise_invitable.it.yml",
     devise_invitable_vietnamese: "#{LOCALES_DIR}/devise_invitable.vi.yml",
     devise_invitable_german: "#{LOCALES_DIR}/devise_invitable.de.yml",
+    devise_invitable_french: "#{LOCALES_DIR}/devise_invitable.fr.yml",
     devise_invitable_japanese: "#{LOCALES_DIR}/devise_invitable.ja.yml",
     kaminari_english: "#{LOCALES_DIR}/kaminari.en.yml",
     kaminari_spanish: "#{LOCALES_DIR}/kaminari.es.yml",
@@ -42,6 +44,7 @@ module CompareLocalesSupport
     kaminari_italian: "#{LOCALES_DIR}/kaminari.it.yml",
     kaminari_vietnamese: "#{LOCALES_DIR}/kaminari.vi.yml",
     kaminari_german: "#{LOCALES_DIR}/kaminari.de.yml",
+    kaminari_french: "#{LOCALES_DIR}/kaminari.fr.yml",
     kaminari_japanese: "#{LOCALES_DIR}/kaminari.ja.yml"
   }.freeze
 
