@@ -26,7 +26,7 @@ ja:
     de: Deutsch
     ja: 日本語
   navigation:
-    about: 'if meについて'
+    about: 'プロフィール'
     blog: ブログ
     contribute: 貢献する
     partners: 提携
@@ -68,7 +68,7 @@ ja:
     form:
       email: 電子メール
       location: 場所
-      description: Description
+      description: ディスクリプション
       error_explanation: 'Please fill out the marked fields!'
       press_enter: 'Press ENTER to add'
     time_ago: '%{date}前に'
@@ -233,13 +233,13 @@ ja:
       maximum_placeholder: '0 if no maximum'
     join_success: 'You have joined this meeting.'
     info:
-      cancel_meeting: 'Cancel meeting'
-      meeting_time: Time
+      cancel_meeting: '会議をキャンセルする'
+      meeting_time: 時間
       members_of_group_html:
         one: '%{count} Member of %{group}'
         other: '%{count} Members of %{group}'
     reminder_mailer:
-      subject: 'Your meeting "%{meeting_name}" is tomorrow at %{time}!'
+      subject: '「%{meeting_name}」という会議は明日%{time}にあります。'
       body: 'Here''s a friendly reminder that your meeting tomorrow, "%{meeting_name}", will be taking place at %{time} at %{location}!'
     leave:
       error: 'You cannot leave the meeting, you are the only leader.'
@@ -252,22 +252,22 @@ ja:
     tagged_moments: 'タグしたモーメント'
     new: '新しいモーメント'
     secret_share:
-      singular: 'Secret Share'
-      expires_at: 'Expire at'
-      cancel_secret_share: 'Cancel Secret Share'
+      singular: '秘密シェア'
+      expires_at: '表示期限'
+      cancel_secret_share: '秘密シェアをキャンセルする'
     form:
-      why: 'What happened and how do you feel?'
-      fix: 'What thoughts would you like to have?'
-      what_happened: 'What happened?'
-      viewers_hint: 'Allies who can view your moment'
-      draft_question: 'Do you want to save your moment as draft?'
+      why: '何が起こりましたか？気持ちはどうですか？'
+      fix: 'どんな思考がほしいですか？'
+      what_happened: '何が起こりましたか？'
+      viewers_hint: 'モーメントが見える仲間'
+      draft_question: 'このモーメントは下書きを新規保管したいですか？'
     index:
       subtitle: 'Delve deep into your moments - events and situations that affect your mental health.'
       instructions: 'You haven''t written about any moments yet.<br><br>Don''t know where to start? What''s something that happened today that you would like to share and discuss with a loved one? It can be positive or negative! You can don''t have to share it right away - only when you''re ready to! Here''s an example of a Moment.'
-      example_name: 'Panicking over interview tomorrow!'
+      example_name: '明日の面接はやばいパニックになりそう！'
       example_category: Career
     show:
-      strategies: 'What strategies would help?'
+      strategies: 'どんな作戦がいいですか？'
   moods:
     singular: 気持ち
     plural: 気持ち
@@ -292,9 +292,9 @@ ja:
     none: 'ありません'
     clear: Clear
     created_by_html: '<strong>Created by</strong>: %{name}'
-    preview: 'View more'
+    preview: 'もっと見る'
     members:
-      title: 'List of Members'
+      title: 'メンバーのリスト'
     ally:
       accepted: '%{name} accepted your ally request!'
       sent_html: '%{link_to_user} sent an ally request!'
@@ -302,13 +302,13 @@ ja:
       full: '%{name} commented "%{comment}" on %{typename}'
       truncated: '%{name} commented "%{comment}" [...] on %{typename}'
     group:
-      new_group: '%{name} created a group "%{group_name}"'
-      new_group_member: '%{name} joined your group "%{group_name}"'
-      add_group_leader: '%{name} became a leader of "%{group_name}"'
-      remove_group_leader: '%{name} is no longer a leader of "%{group_name}"'
+      new_group: '%{name}は%{group_name}というグループを作りました。'
+      new_group_member: '%{name}はあなたのグループ%{group_name}に入りました。'
+      add_group_leader: '%{name}は%{group_name}のリーダーになりました。'
+      remove_group_leader: '%{name}は今から%{group_name}のリーダーじゃないです。'
     meeting:
       new_meeting: '%{name} created a new meeting "%{meeting_name}" for "%{group_name}"'
-      remove_meeting: '%{name} has cancelled "%{meeting_name}" for "%{group_name}"'
+      remove_meeting: '%{name}は%{group_name}の%{meeting_name}を取り止めました。'
       update_meeting: '%{name} has updated "%{meeting_name}" for "%{group_name}"'
       join_meeting: '%{name} has joined "%{meeting_name}" for "%{group_name}"'
     mailer:
@@ -500,8 +500,8 @@ ja:
         reporting: reporting
   profile:
     index:
-      title: プロファイル
-      edit_user: 'プロファイルをカスタマイズする'
+      title: プロフィール
+      edit_user: 'プロフィールをカスタマイズする'
   pusher:
     not_authorized: 'Not Authorized'
   search:
