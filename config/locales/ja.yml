@@ -73,7 +73,7 @@ ja:
       error_explanation: 'マークされたフィールドに記入してください！'
       press_enter: '追加するにはEnterキーを押します'
     time_ago: '%{date}前に'
-    write_to_us: '私たちに書いてください'
+    write_to_us: '私たちにコンタクトしてください'
     days: 日
   comment:
     singular: コメント
@@ -356,7 +356,7 @@ ja:
       description: '私たちのために書くことに興味があるなら、%{email}で連絡してください！匿名の投稿も歓迎されます。'
     contribute:
       main_message_one: 'if meはさまざまな背景とスキルセットのボランティアによって作成され維持されています。'
-      message_text_one: '<strong>精神保健擁護家</strong>、<strong>医療従事者</strong>、<strong>ソフトウェア開発者</strong>、<strong>翻訳者</strong>、<strong>ユーザーエクスペリエンスデザイナー</strong>など、誰もが常にアイデアを探しています！<p class="noMarginBottom">%{email_link}でメールしてください！主要なコミュニケーションツールである%{slack_link}ページに参加するように招待されます。%{github_link}でホストされているリポジトリをフォークしてください！</p>'
+      message_text_one: '<strong>精神保健擁護家</strong>、<strong>医療従事者</strong>、<strong>ソフトウェア開発者</strong>、<strong>翻訳者</strong>、<strong>ユーザーエクスペリエンスデザイナー</strong>など、誰もが常にアイデアを探しています！<p class="noMarginBottom">貢献したかったら、%{email_link}！主要なコミュニケーションツールである%{slack_link}ページに参加するように招待されます。%{github_link}でホストされているリポジトリをフォークしてください！</p>'
       more_contributors: 'もっと素晴らしい貢献者！'
       thanks: 'よろしくお願いします。'
       slack: Slack
