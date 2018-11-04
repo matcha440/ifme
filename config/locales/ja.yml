@@ -358,7 +358,7 @@ ja:
       main_message_one: 'if meはさまざまな背景とスキルセットのボランティアによって作成され維持されています。'
       message_text_one: '<strong>精神保健擁護家</strong>、<strong>医療従事者</strong>、<strong>ソフトウェア開発者</strong>、<strong>翻訳者</strong>、<strong>ユーザーエクスペリエンスデザイナー</strong>など、誰もが常にアイデアを探しています！<p class="noMarginBottom">貢献したかったら、%{email_link}！主要なコミュニケーションツールである%{slack_link}ページに参加するように招待されます。%{github_link}でホストされているリポジトリをフォークしてください！</p>'
       more_contributors: 'もっと素晴らしい貢献者！'
-      thanks: 'よろしくお願いします。'
+      thanks: 'ありがとうございます。'
       slack: Slack
     faq:
       title: 'よくある質問'
