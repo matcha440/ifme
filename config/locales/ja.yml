@@ -164,9 +164,9 @@ ja:
       delete: グループを削除する
   layouts:
     application:
-      signin: 'Tell your stories now'
-      create_account: 'Join the community now'
-      update_account: 'Customize your account'
+      signin: 'あなたの話を伝える'
+      create_account: 'コミュニティに参加する'
+      update_account: 'アカウントをカスタマイズする'
     mailer:
       html:
         app_description: '%{app_name}はメンタルヘルスの話を大切な人と一緒に教えるコミュニティです。'
