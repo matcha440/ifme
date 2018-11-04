@@ -44,7 +44,7 @@ ja:
     press: 報道機関
     faq: よくある質問
     resources: リーソス
-    code_of_conduct: ご利用にあたっての注意事項
+    code_of_conduct: 行動規範
   common:
     name: 名前
     you: あなた
@@ -61,7 +61,7 @@ ja:
       edit: 編集する
       edit_instance: '編集%{instance}'
       join: 登録
-      leave: 去る
+      leave: 離れる
       add: 追加する
       add_all: 全て追加する
       select_all: 全て選択する
@@ -70,18 +70,18 @@ ja:
       email: 電子メール
       location: 場所
       description: ディスクリプション
-      error_explanation: 'Please fill out the marked fields!'
-      press_enter: 'Press ENTER to add'
+      error_explanation: 'マークされたフィールドに記入してください！'
+      press_enter: '追加するにはEnterキーを押します'
     time_ago: '%{date}前に'
-    write_to_us: 'write to us'
+    write_to_us: '私たちに書いてください'
     days: 日
   comment:
     singular: コメント
     plural: コメント
-    posting: 'Posting comment...'
-    allow_comments: 'Allow Comments?'
-    hint: 'Only you and viewers can comment'
-    control: 'Control who can view and comment'
+    posting: 'コメントを投稿中…'
+    allow_comments: 'コメントを許可します？'
+    hint: 'あなたと視聴者だけがコメントできます。'
+    control: '表示したりコメントできるユーザーを制御します。'
   account:
     singular: アカウント
     sign_in: ログイン
@@ -99,15 +99,15 @@ ja:
       title: 仲間
       outgoing: 出リクエスト
       incoming: '入リクエスト'
-      invited: 'Invited by email'
-      invited_on: 'Invited on: %{date}'
-      invitation_expired: 'Invitation expired'
-      invite: '大切な人を誘いましょう！'
-      none: 'You can search for them or invite loved ones to join!'
+      invited: '電子メールで招待されました。'
+      invited_on: '招待された：%{date}'
+      invitation_expired: '招待状の期限が切れました'
+      invite: '大切な人を招待しましょう！'
+      none: '仲間を増えるために検索するか、または大切な人を招待することができます。'
       view_all_allies: 全ての仲間を見る
       cancel: キャンセル
     form:
-      placeholder: 'Enter one or more comma-separated emails'
+      placeholder: 'コンマ区切りのメールを１つ以上入力してください'
   categories:
     singular: カテゴリー
     plural: カテゴリー
@@ -140,12 +140,12 @@ ja:
     plural: グループ
     form:
       leaders: リーダー
-      only_leader: 'リーダーはあなたしかないから、去ることができません。'
+      only_leader: 'リーダーはあなたしかないから、離れることができません。'
       cannot_delete: 'グループを削除することができません。'
       error_save: 'グループを保存できない理由は：'
       error_edit_permission: 'グループのリーダーじゃないから編集できません。'
     index:
-      subtitle: 'Create and join groups that offer support, mentorship, and discussions.'
+      subtitle: 'サポート、メンタリング、ディスカッションを提供するグループを作成し、参加します。'
       available_groups: '入れるグループ'
       joined_groups: '入ったグループ'
       leader: （リーダー）
@@ -154,8 +154,8 @@ ja:
       success: 'このグループに入りました。'
       group_not_exists: '存在しないグループが入れません。'
     leave:
-      error: 'グループのリーダーはあなただから、去れません。'
-      success: '%{group}から去っていました。'
+      error: 'グループのリーダーはあなただけから、離れらることができません。'
+      success: '%{group}を離れていました。'
       remove_member_success: '%{user}が%{group}から外しました。'
       remove_member_error: 'リーダーじゃないからメンバーが外せません。'
     new: 新しいグループ
@@ -181,47 +181,47 @@ ja:
     weekly_dosage: '一週間投薬量：'
     refill: '補充：'
     quantity: '量：'
-    strength: '強度：'
+    strength: '強さ：'
     form:
-      strength: 強度
+      strength: 強さ
       strength_placeholder: 'e.g. 100'
       total_placeholder: 'e.g. 30'
       dosage: 投薬量
       dosage_placeholder: 'e.g. 2'
       refill: 補充
-      comments_hint: 'Add any additional comments here, e.g. logging your symptoms'
-      add_to_google_cal: 'Google Calendar reminder'
-      google_cal_hint: 'We''ll add a reminder for this medication to your Google calendar.'
-      strength_hint: 'Medication strength, usually found beside the name'
-      total_hint: 'Total number of pills or amount of medication'
-      dosage_hint: 'Number of pills or servings daily'
-      weekly_dosage_hint: 'Days of the week to take this medication'
-      refill_hint: 'When to refill this prescription'
-      refill_reminder_hint: 'We''ll email you a reminder the week before your medication needs to be refilled.'
-      daily_reminder_hint: 'We''ll email you a daily reminder to take this medication'
-      total: Total
-    new: 'New Medication'
+      comments_hint: 'ここにコメントしてください。例えば自分の症状を記録します。'
+      add_to_google_cal: 'Googleカレンダーリマインダ'
+      google_cal_hint: 'この処方薬のリマインダをGoogleカレンダーに追加します。'
+      strength_hint: '薬の強さは、たいてい薬名の横にあります。'
+      total_hint: '薬の総数または投薬量'
+      dosage_hint: '毎日の丸薬またはサービングの数'
+      weekly_dosage_hint: 'この処方薬を服用する曜日'
+      refill_hint: 'この処方箋を補充する時期'
+      refill_reminder_hint: '薬を補充する必要がある１週間前にあなたにリマインドメールします。'
+      daily_reminder_hint: '毎日この薬を服用をするために毎日リマインドメールします。'
+      total: 合計
+    new: '新しい処方薬'
     units:
       display: '%{count} %{unit}'
       mg: mg
       ml: ml
       tablets:
-        one: tablet
-        other: tablets
+        one: 錠
+        other: 錠
     reminder_mailer:
-      subject: '%{name}を飲み忘れないでください！'
+      subject: '%{name}の服用を忘れないでください！'
       body: 'Here''s a friendly reminder to take your medication %{name}!'
     refill_mailer:
-      subject: 'Your refill for %{name} is coming up soon!'
+      subject: '%{name}の補充はもうすぐです！'
       body: 'Here''s a friendly reminder to refill your medication %{name} on %{refill}!'
     index:
       title: 処方薬
-      subtitle: 'Keep track of your medications, including dosage and refill information.'
-      instructions: 'You haven''t saved any medications yet.<br><br>Here''s an example of a saved medication! You can also write about your experience.'
-      example_name: Prozac
+      subtitle: '投薬と補充の情報を追跡します。'
+      instructions: 'まだ処方薬を保存していません。<br><br>例の処方薬はこちらです。経験について書くことができます。'
+      example_name: プロザック
       example_strength: '10 mg'
-      example_total: '40 tablets'
-      example_dosage: '2 tablets'
+      example_total: '40錠'
+      example_dosage: '2錠'
       example_refill: 05/31/2016
     show:
       comments: 'コメント：'
@@ -229,54 +229,54 @@ ja:
     singular: 会議
     edit_meeting: '会議を編集する'
     form:
-      location_placeholder: 'URL or street address'
-      maximum_members: 'Maximum Members'
-      maximum_placeholder: '0 if no maximum'
-    join_success: 'You have joined this meeting.'
+      location_placeholder: 'URLまたは住所'
+      maximum_members: '最大のメンバー'
+      maximum_placeholder: '最大がない場合は０'
+    join_success: 'この会議に参加しました。'
     info:
       cancel_meeting: '会議をキャンセルする'
       meeting_time: 時間
       members_of_group_html:
-        one: '%{count} Member of %{group}'
-        other: '%{count} Members of %{group}'
+        one: '%{group}メンバー%{count}人'
+        other: '%{group}メンバー%{count}人'
     reminder_mailer:
       subject: '「%{meeting_name}」という会議は明日%{time}にあります。'
       body: 'Here''s a friendly reminder that your meeting tomorrow, "%{meeting_name}", will be taking place at %{time} at %{location}!'
     leave:
-      error: 'You cannot leave the meeting, you are the only leader.'
-      success: 'You have left %{meeting}'
+      error: 'リーダーはあなただけから、会議を離れることができません。'
+      success: '%{meeting}を離れました。'
     new: '新しい会議'
   moments:
     singular: モーメント
     plural: モーメント
     edit_moment: 'モーメントを編集する'
-    tagged_moments: 'タグしたモーメント'
+    tagged_moments: 'タグされたモーメント'
     new: '新しいモーメント'
     secret_share:
       singular: '秘密シェア'
       expires_at: '表示期限'
       cancel_secret_share: '秘密シェアをキャンセルする'
     form:
-      why: '何が起こりましたか？気持ちはどうですか？'
+      why: '何が起こりましたか？気分はどうですか？'
       fix: 'どんな思考がほしいですか？'
       what_happened: '何が起こりましたか？'
       viewers_hint: 'モーメントが見える仲間'
       draft_question: 'このモーメントは下書きを新規保管したいですか？'
     index:
-      subtitle: 'Delve deep into your moments - events and situations that affect your mental health.'
-      instructions: 'You haven''t written about any moments yet.<br><br>Don''t know where to start? What''s something that happened today that you would like to share and discuss with a loved one? It can be positive or negative! You can don''t have to share it right away - only when you''re ready to! Here''s an example of a Moment.'
+      subtitle: 'あなたのメンタルヘルスに影響を与えるイベントや状況、あなたのモーメントを深く探る。'
+      instructions: 'まだどんなモーメントについても書いていません。<br><br>最初は難しいですか？今日、あなたが大切な人と分かち合って議論したいことは何ですか？いいか悪いことができます。準備が整ったらすぐに共有する必要はありません。モーメントの例はこちらです。'
       example_name: '明日の面接はやばいパニックになりそう！'
       example_category: Career
     show:
-      strategies: 'どんな作戦がいいですか？'
+      strategies: 'どんな戦略がいいですか？'
   moods:
-    singular: 気持ち
-    plural: 気持ち
+    singular: 気分
+    plural: 気分
     edit_mood: '気分を編集する'
     new: '新しい気分'
-    example_moods: '緊張、ハラハラ、楽観的'
+    example_moods: '不安、ハラハラ、楽観的'
     index:
-      subtitle: 'Create tags describing your state of mind, feelings, and emotions.'
+      subtitle: 'あなたの心の状態、気分、感情を記述するタグを作成します。'
       premade1_name: Accepting
       premade1_description: 'Accepting and being at peace with differences and limitations'
       premade2_name: Ambitious
@@ -292,94 +292,94 @@ ja:
     plural: お知らせ
     none: 'ありません'
     clear: Clear
-    created_by_html: '<strong>Created by</strong>: %{name}'
+    created_by_html: '<strong>作成された</strong>：%{name}'
     preview: 'もっと見る'
     members:
       title: 'メンバーのリスト'
     ally:
-      accepted: '%{name} accepted your ally request!'
-      sent_html: '%{link_to_user} sent an ally request!'
+      accepted: '%{name}はあなたの仲間リクエストを受け入れました！'
+      sent_html: '%{link_to_user}は仲間リクエストを送りました！'
     comment:
-      full: '%{name} commented "%{comment}" on %{typename}'
-      truncated: '%{name} commented "%{comment}" [...] on %{typename}'
+      full: '%{name}は%{typename}について「%{comment}」をコメントしました。'
+      truncated: '%{name}は%{typename}について「%{comment}」 [...]をコメントしました。'
     group:
       new_group: '%{name}は%{group_name}というグループを作りました。'
       new_group_member: '%{name}はあなたのグループ%{group_name}に入りました。'
       add_group_leader: '%{name}は%{group_name}のリーダーになりました。'
       remove_group_leader: '%{name}は今から%{group_name}のリーダーじゃないです。'
     meeting:
-      new_meeting: '%{name} created a new meeting "%{meeting_name}" for "%{group_name}"'
-      remove_meeting: '%{name}は%{group_name}の%{meeting_name}を取り止めました。'
-      update_meeting: '%{name} has updated "%{meeting_name}" for "%{group_name}"'
-      join_meeting: '%{name} has joined "%{meeting_name}" for "%{group_name}"'
+      new_meeting: '%{name}は%{group_name}で%{meeting_name}という会議を作成しました。'
+      remove_meeting: '%{name}は%{group_name}の%{meeting_name}という会議を取り止めました。'
+      update_meeting: '%{name}は%{group_name}の%{meeting_name}という会議を更新しました。'
+      join_meeting: '%{name}は%{group_name}の%{meeting_name}という会議に参加しました。'
     mailer:
-      comment_on_moment_subject: 'if me | %{user} commented on your moment "%{moment}"'
-      comment_on_strategy_subject: 'if me | %{user} commented on your strategy "%{strategy}"'
-      comment_on_meeting_subject: 'if me | %{user} commented on the meeting "%{meeting}" in the group "%{group}"'
-      comment_on_private_body: '<p>Your ally <strong>%{user}</strong> commented privately:</p>'
-      comment_on_body: '<p>Your ally <strong>%{user}</strong> commented:</p>'
+      comment_on_moment_subject: 'if me | %{user}は%{moment}というモーメントについてをコメントしました。'
+      comment_on_strategy_subject: 'if me | %{user}は%{strategy}という戦略についてをコメントしました。'
+      comment_on_meeting_subject: 'if me | %{user}は%{group_name}の%{meeting_name}という会議をコメントしました。'
+      comment_on_private_body: '<p>あなたの仲間<strong>%{user}</strong>私的にコメントしました：</p>'
+      comment_on_body: '<p>あなたの仲間<strong>%{user}</strong>コメントしました：</p>'
       comment_text_cutoff: '<p><i>%{comment} [...]</i></p>'
       comment_text: '<p><i>%{comment}</i></p>'
-      comment_link: '<p>To read it, %{link}!</p>'
-      new_group_subject: 'if me | %{user} created a group "%{group}"'
-      new_group_body: '<p>%{user} created a group "%{group}":</p><p><i>%{description}</i></p><p>To learn more and join, %{link}!</p><p>Please follow our %{link_to_code_of_conduct}!</p>'
-      new_group_member_subject: 'if me | %{user} joined your group "%{group}"'
-      add_group_leader_you_subject: 'if me | You became a leader of "%{group}"'
-      add_group_leader_subject: 'if me | %{user} became a leader of " %{group}"'
-      add_remove_group_leader_body: '<p>To see "%{group}", %{link}!</p>'
-      remove_group_leader_you_subject: 'if me | You are no longer a leader of "%{group}"'
-      remove_group_leader_subject: 'if me | %{user} is no longer a leader of "%{group}"'
-      update_meeting_subject: 'if me | %{user} has updated the meeting "%{meeting}" for "%{group}"'
-      new_meeting_subject: 'if me | %{user} has created a new meeting "%{meeting}" for "%{group}"'
-      meeting_body: '<p>%{subject}</p><p><i>%{description}</i></p><p><strong>Location:</strong> %{location}</p><p><strong>Date:</strong> %{date}</p><p><strong>Time:</strong> %{time}</p>'
-      new_meeting_link: '<p>To learn more and attend, %{link}!</p>'
-      update_meeting_link: '<p>To learn more, %{link}!</p>'
-      remove_meeting_subject: 'if me | %{user} has cancelled "%{meeting}" for "%{group}"'
-      join_meeting_subject: 'if me | %{user} has joined "%{meeting}" for "%{group}"'
-      join_meeting_body: '<p>To see "%{meeting}", %{link}!</p>'
+      comment_link: '<p>読むために、%{link}!</p>'
+      new_group_subject: 'if me | %{user}は%{group}というグループを作成しました。'
+      new_group_body: '<p>%{user}は%{group}というグループを作成しました。</p><p><i>%{description}</i></p><p>詳しくは、%{link}!</p><p>%{link_to_code_of_conduct}に従ってください！</p>'
+      new_group_member_subject: 'if me | %{user}は%{group}というグループに参加します'
+      add_group_leader_you_subject: 'if me | あなたは%{group}のリーダーになりました'
+      add_group_leader_subject: 'if me | %{user}は%{group}のリーダーになりました'
+      add_remove_group_leader_body: '<p>%{group}を詳しく見るには、 %{link}！</p>'
+      remove_group_leader_you_subject: 'if me | あなたは%今から{group}のリーダーじゃありません'
+      remove_group_leader_subject: 'if me | %{user}は今から%{group}のリーダーじゃありません'
+      update_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議を更新しました'
+      new_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議を作成しました'
+      meeting_body: '<p>%{subject}</p><p><i>%{description}</i></p><p><strong>場所：</strong>%{location}</p><p><strong>日付：</strong>%{date}</p><p><strong>時間：</strong>%{time}</p>'
+      new_meeting_link: '<p>詳しくは、%{link}！</p>'
+      update_meeting_link: '<p>詳しくは、%{link}！</p>'
+      remove_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議をキャンセルしました'
+      join_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議を参加しました'
+      join_meeting_body: '<p>%{meeting}を見るために、%{link}！</p>'
   omniauth:
-    google: グーグル
+    google: Google
     access_denied: 'アクセスできません'
   pages:
     about:
-      send_us: us
-      email_us: 'Feel free to email %{email_link}!'
-      main_message_one: '%{app_name} is a community for mental health experiences that encourages people to share their personal stories with trusted allies.'
-      message_text_one: 'Trusted allies are the people we interact with on a daily basis, including friends, family members, co-workers, teachers, and mental health workers.'
-      main_message_two: 'Dealing with mental health is what makes us human. But for a lot of us, it''s a struggle to be open about it.'
-      message_text_two: '<p>Not everyone is a counsellor or therapist. The people who we interact with everyday shape our emotions and behaviour. Getting them involved in mental health treatment is the key to recovery.</p><p class="subtitle">"It''s not just all in your head, it''s all around you. We can heal together."</p><p>Mental health is such an individual and unique experience. No two brains are alike! Tackling the problem requires ideas from everyone, which is why the project is open source.</p>'
-      main_message_three: 'Wanna help fund us?'
-      message_text_three: 'Our app is a <u>completely</u> open source project. It''s built and maintained by volunteers of many different backgrounds and skill sets.</p><p>In 2016, we received a community grant from %{linebreak_link}. In 2017, we received funding from %{fund_club_link}.</p>You can support us by donating to our %{patreon_link}.</p>'
+      send_us: 私たち
+      email_us: '%{email_link}にメールしてください！'
+      main_message_one: '%{app_name}は、人々が信頼できる仲間との個人的な話を分かち合うことを奨励するメンタルヘルス体感のコミュニティです。'
+      message_text_one: '信頼できる仲間は日常的に対話する人です。例えば、友達、家族、同僚、教師、メンタルヘルスワーカーです。'
+      main_message_two: 'メンタルヘルスを扱うことは私たちを人間にするものです。しかし、多くの人にとって、正直に話すことがすごく大変です。'
+      message_text_two: '<p>誰もがカウンセラーやセラピストじゃありません。毎日対話する人は感情や行動が影響されます。回復のために、彼らはメンタルヘルスの治療に関係あるのが大事です。</p><p class="subtitle">「あなたの頭の中だけじゃなく、あたなの周りにあります。一緒に治れます。」</p><p>メンタルヘルスは個人的でユニークな経験です。２つの脳はにていません！問題に取り組むには誰もが考えるアイデアが必要です。それがプロジェクトがオープンソースである理由です。</p>'
+      main_message_three: '私たちに資金を援助したいですか？'
+      message_text_three: 'このアプリケーションは<u>全て</u>のオーペンソースプロジェクトです。これはさまざまな背景とスキルセットのボランティアによって作成され維持されています。</p><p>２０１６年には%{linebreak_link}からコミュニティ助成金を受けました。２０１７年には%{fund_club_link}から資金援助を受けました。</p>%{patreon_link}に寄付するで私たちをサポートすることができます。</p>'
       linebreak: Linebreak
       fund_club: 'Fund Club'
     blog:
-      description: 'If you''re interested in writing for us, pitch us at %{email}! We welcome anonymous submissions too.'
+      description: '私たちのために書くことに興味があるなら、%{email}で連絡してください！匿名の投稿も歓迎されます。'
     contribute:
-      main_message_one: 'if me is built and maintained by volunteers of many different backgrounds and skill sets.'
-      message_text_one: 'We''re always looking for ideas from everyone, including <strong>mental health advocates</strong>, <strong>health professionals</strong>, <strong>software developers</strong>, <strong>translators</strong>, and <strong>user experience designers</strong>!<p class="noMarginBottom">Please %{email_link} and we''ll connect with you! You will be invited to participate in our %{slack_link} page, our primary communication tool. Be sure to fork our repository hosted on %{github_link}!</p>'
-      more_contributors: 'More Fabulous Contributors!'
-      thanks: 'A huge thanks to'
+      main_message_one: 'if meはさまざまな背景とスキルセットのボランティアによって作成され維持されています。'
+      message_text_one: '<strong>精神保健擁護家</strong>、<strong>医療従事者</strong>、<strong>ソフトウェア開発者</strong>、<strong>翻訳者</strong>、<strong>ユーザーエクスペリエンスデザイナー</strong>など、誰もが常にアイデアを探しています！<p class="noMarginBottom">%{email_link}でメールしてください！主要なコミュニケーションツールである%{slack_link}ページに参加するように招待されます。%{github_link}でホストされているリポジトリをフォークしてください！</p>'
+      more_contributors: 'もっと素晴らしい貢献者！'
+      thanks: 'よろしくお願いします。'
       slack: Slack
     faq:
       title: 'よくある質問'
       data_access_question: '誰が私のデータをアクセスできますか？'
       data_access_answer: '第三者はデータを見えることができます。アカウントを消したら、全てのデータが取り除けられます。<br><br>ユーザーデータがカスタマイズした勧めのためにアプリの中で解析されました。'
-      moment_question: 'モーメントはなんですか？'
-      moment_answer: '<strong>%{moment}</strong>はメンタルヘルスを影響するイベントです。いいモーメントと悪いモーメントもあります。記事に似ってます。<br><br>作戦、カテゴリー、気持ちもタグできます。どちらの仲間が見える、コメントすることに選択できます。自分だけモーメントを見えることもできます。'
-      strategy_question: 'What is a Strategy?'
-      strategy_answer: 'A <strong>%{strategy}</strong> is an activity, train of thought, or form of self-care that helps you cope or focus on recovery.<br><br>You can tag Strategies with Categories. You can also choose which allies can view and comment. You can also make Strategies only visible to you. Shared Strategies will be visible to all allies specified, which means you can tag your Moments with their Strategies!'
-      category_question: 'What is a Category?'
-      category_answer: 'A <strong>%{category}</strong> is a tag that can represent the people, places, and things that are important to you.'
-      mood_question: 'What is a Mood?'
-      mood_answer: 'A <strong>%{mood}</strong> is a tag describing your state of mind, feelings, and emotions.'
-      group_question: 'What is a Group?'
-      group_answer: 'A <strong>%{group}</strong> offers support, mentorship, and discussions on mental health. You can create Groups and your allies have the option of joining. You can only join groups that are created by your allies.<br><br>As a Group leader, you can create <strong>Meetings</strong>. Meetings have a location and time. The location can be a physical place or a Google Hangout URL. Meetings also allow for comments. If you are a Group leader, you cannot leave a group unless there is another leader. Groups can only be deleted when you are the only member.'
-      medications_question: 'How do I use the Medications feature?'
-      medications_answer: 'The <strong>%{medications}</strong> feature allows you to log the prescription drugs you are taking. You can also log your symptoms.'
-      invite_question: 'How can I invite my loved ones to join the app?'
-      invite_answer: 'Go to the <strong>%{allies}</strong> page and click the "Invite your loved ones" link. You will be able to invite them via email. When your loved one accepts the invite, they will be added to your Allies list.'
-      email_notifications_question: 'How can I modify email notifications?'
-      email_notifications_answer: 'Go to the <strong>%{accounts}</strong> page. You can modify your email, password, profile picture, and bio here. You can also delete your account. Once you delete your account, all your data is deleted.'
+      moment_question: 'モーメントとは何ですか？'
+      moment_answer: '<strong>%{moment}</strong>はメンタルヘルスを影響するイベントです。いいか悪いことができます。記事に似ってます。<br><br>戦略、カテゴリー、気分もタグできます。どちらの仲間が見える、コメントすることに選択できます。自分だけモーメントを見えることもできます。'
+      strategy_question: '戦略は何ですか？'
+      strategy_answer: '<strong>%{strategy}</strong>は回復に対処するのに役立つアクティビティ、思考の訓練、または自己ケアの形式です。<br><br>戦略はカテゴリーにタグすることができます。 どの仲間が見ることができ、コメントするかを選択することもできます。また、戦略をあなたにしか見せないようにすることもできます。 共有戦略は、指定されたすべての仲間に見えるようになります。つまり、戦略にあなたのモーメントにタグを付けることができます！'
+      category_question: 'カテゴリーとは何ですか？'
+      category_answer: '<strong>%{category}</strong>は、あなたにとって重要な人、場所、物を表すタグです。'
+      mood_question: '気分とは何ですか？'
+      mood_answer: '<strong>%{mood}</strong>とは、気分、感情、感情の状態を表すタグです。'
+      group_question: 'グループとは何ですか？'
+      group_answer: '<strong>%{group}</strong>では、メンタルヘルスに関するサポート、メンタリング、ディスカッションを提供しています。あなたはグループを作成することができ、仲間は参加することができます。仲間で作成されたグループだけ参加することができます。<br><br>グループのリーダーは<strong>会議</strong>が作成することができます。会議は場所と時間があります。場所は物理的な場所でも、GoogleハングアウトのURLでもかまいません。会議はコメントすることもできます。あなたがグループリーダーであれば、別のリーダーがいなければグループを離れることはできません。グループは、唯一のメンバーである場合にのみ削除できます。'
+      medications_question: '処方薬機能を使用するにはどうすればいいですか？'
+      medications_answer: '<strong>%{medications}</strong>機能では、処方薬を記録することができます。また、症状を記録することもできます。'
+      invite_question: '大切な人を招待するにはどうすればいいですか？'
+      invite_answer: '<strong>%{allies}</strong>ページに行って、「大切な人を招待する」と書いたリンクをクリックしてください。電子メールで招待することができます。招待を受け入れると、あなたの仲間リストに追加されます。'
+      email_notifications_question: '電子メール通知を変更するにはどうすればよいですか？'
+      email_notifications_answer: '<strong>%{accounts}</strong>に行ってください。電子メール、パスワード、プロフィール画像、プロフィールを変更することができます。アカウントを削除することもできます。アカウントを削除すると、すべてのデータが削除されます。'
     home:
       stories: Stories
       not_signed_in:
@@ -424,31 +424,31 @@ ja:
       tags:
         people_of_colour: 'people of colour'
         women_of_colour: 'women of colour'
-        black_women: 'black women'
-        domestic_violence: 'domestic violence'
-        dating_violence: 'dating violence'
-        cyberbullying: cyberbullying
-        therapy: therapy
+        black_women: 黒人女性
+        domestic_violence: 家庭内暴力
+        dating_violence: デートの暴力
+        cyberbullying: サイバー攻撃
+        therapy: セラピー
         counseling: counseling
         youth: youth
         lgbtqia: LGBTQIA
         harassment: harassment
         self_care: self-care
-        women: women
+        women: 女性
         chatbot: chatbot
         anonymous: anonymous
-        free: free
+        free: 無料
         paid: paid
         twenty_four_seven: 24/7
-        videos: videos
-        blog: blog
-        podcast: podcast
-        books: books
+        videos: ビデオ
+        blog: ブログ
+        podcast: ポッドキャスト
+        books: 本
         publication: publication
-        video_chat: 'video chat'
+        video_chat: ビデオチャット
         texting: texting
-        open_source: 'open source'
-        workplace: workplace
+        open_source: オーペンソース
+        workplace: 職場
         social_justice: 'social justice'
         tech_industry: 'tech industry'
         meditation: meditation
@@ -458,8 +458,8 @@ ja:
         netflix: netflix
         homeless: homeless
         talks: talks
-        voice_chat: 'voice chat'
-        training: training
+        voice_chat: ボイスチャット
+        training: 訓練
         directory: directory
         self_injury: self-injury
         treatment: treatment
@@ -553,11 +553,11 @@ ja:
     quick_create:
       new: '新しい%{name}'
   strategies:
-    singular: 作戦
-    plural: 作戦
-    edit_strategy: '作戦を編集する'
-    tagged_strategies: 'タグした作戦'
-    new: '新しい作戦'
+    singular: 戦略
+    plural: 戦略
+    edit_strategy: '戦略を編集する'
+    tagged_strategies: 'タグした戦略'
+    new: '新しい戦略'
     form:
       describe: 'Describe the strategy.'
       strategies_label: 'What strategies would help achieve these thoughts?'
@@ -566,8 +566,8 @@ ja:
       daily_reminder_hint: 'We''ll email you a daily reminder to perform this strategy'
       draft_question: 'Do you want to save your strategy as draft?'
     label:
-      one: '作戦：'
-      other: '作戦：'
+      one: '戦略：'
+      other: '戦略：'
     index:
       subtitle: 'Strategize self-care to achieve desired thoughts and attitudes towards your moments.'
       premade1_name: 'Five Minute Meditation'
@@ -647,8 +647,8 @@ ja:
     sessions:
       subtitle: 'Welcome back, we''re looking forward to you helping you tackle your day'
     shared:
-      sign_in_google: 'グーグルでログインする'
-      sign_up_google: 'グーグルで登録する'
+      sign_in_google: 'Googleでログインする'
+      sign_up_google: 'Googleで登録する'
       confirmation: 'Didn''t receive confirmation instructions?'
       unlock: 'Didn''t receive unlock instructions?'
     unlock:
