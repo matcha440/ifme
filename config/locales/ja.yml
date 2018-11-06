@@ -140,7 +140,7 @@ ja:
     plural: グループ
     form:
       leaders: リーダー
-      only_leader: 'リーダーはあなたしかないから、離れることができません。'
+      only_leader: 'リーダーはあなたしかないから、立ち去ることができません。'
       cannot_delete: 'グループを削除することができません。'
       error_save: 'グループを保存できない理由は：'
       error_edit_permission: 'グループのリーダーじゃないから編集できません。'
@@ -243,8 +243,8 @@ ja:
       subject: '「%{meeting_name}」という会議は明日%{time}にあります。'
       body: 'Here''s a friendly reminder that your meeting tomorrow, "%{meeting_name}", will be taking place at %{time} at %{location}!'
     leave:
-      error: 'リーダーはあなただけから、会議を離れることができません。'
-      success: '%{meeting}を離れました。'
+      error: 'リーダーはあなただけから、会議を立ち去ることができません。'
+      success: '%{meeting}を立ち去りました。'
     new: '新しい会議'
   moments:
     singular: モーメント
@@ -373,7 +373,7 @@ ja:
       mood_question: '気分とは何ですか？'
       mood_answer: '<strong>%{mood}</strong>とは、気分、感情、感情の状態を表すタグです。'
       group_question: 'グループとは何ですか？'
-      group_answer: '<strong>%{group}</strong>では、メンタルヘルスに関するサポート、メンタリング、ディスカッションを提供しています。あなたはグループを作成することができ、仲間は参加することができます。仲間で作成されたグループだけ参加することができます。<br><br>グループのリーダーは<strong>会議</strong>が作成することができます。会議は場所と時間があります。場所は物理的な場所でも、GoogleハングアウトのURLでもかまいません。会議はコメントすることもできます。あなたがグループリーダーであれば、別のリーダーがいなければグループを離れることはできません。グループは、唯一のメンバーである場合にのみ削除できます。'
+      group_answer: '<strong>%{group}</strong>では、メンタルヘルスに関するサポート、メンタリング、ディスカッションを提供しています。あなたはグループを作成することができ、仲間は参加することができます。仲間で作成されたグループだけ参加することができます。<br><br>グループのリーダーは<strong>会議</strong>が作成することができます。会議は場所と時間があります。場所は物理的な場所でも、GoogleハングアウトのURLでもかまいません。会議はコメントすることもできます。あなたがグループリーダーであれば、別のリーダーがいなければグループを立ち去ることはできません。グループは、唯一のメンバーである場合にのみ削除できます。'
       medications_question: '処方薬機能を使用するにはどうすればいいですか？'
       medications_answer: '<strong>%{medications}</strong>機能では、処方薬を記録することができます。また、症状を記録することもできます。'
       invite_question: '大切な人を招待するにはどうすればいいですか？'
