@@ -243,26 +243,26 @@ ja:
     show:
       comments: 'コメント：'
   meetings:
-    singular: 会議
-    edit_meeting: '会議を編集する'
+    singular: 会合
+    edit_meeting: '会合を編集する'
     form:
       location_placeholder: 'URLまたは住所'
       maximum_members: '最大のメンバー'
       maximum_placeholder: '最大がない場合は０'
-    join_success: 'この会議に参加しました。'
+    join_success: 'この会合に参加しました。'
     info:
-      cancel_meeting: '会議をキャンセルする'
+      cancel_meeting: '会合をキャンセルする'
       meeting_time: 時間
       members_of_group_html:
         one: '%{group}メンバー%{count}人'
         other: '%{group}メンバー%{count}人'
     reminder_mailer:
-      subject: '「%{meeting_name}」という会議は明日%{time}にあります。'
-      body: 'Here''s a friendly reminder that your meeting tomorrow, "%{meeting_name}", will be taking place at %{time} at %{location}!'
+      subject: '%{meeting_name}という会合は明日%{time}にあります。'
+      body: '忘れないでください。%{meeting_name}という会合は%{location}で%{time}に行います。'
     leave:
-      error: 'リーダーはあなただけから、会議を立ち去ることができません。'
+      error: 'リーダーはあなたしかいませんので、会合を立ち去ることができません。'
       success: '%{meeting}を立ち去りました。'
-    new: '新しい会議'
+    new: '新しい会合'
   moments:
     singular: モーメント
     plural: モーメント
@@ -283,7 +283,7 @@ ja:
       subtitle: 'あなたのメンタルヘルスに影響を与えるイベントや状況、あなたのモーメントを深く探る。'
       instructions: 'まだどんなモーメントについても書いていません。<br><br>最初は難しいですか？今日、あなたが大切な人と分かち合って議論したいことは何ですか？いいか悪いことができます。準備が整ったらすぐに共有する必要はありません。モーメントの例はこちらです。'
       example_name: '明日の面接はやばいパニックになりそう！'
-      example_category: Career
+      example_category: キャリア
     show:
       strategies: 'どんな戦略がいいですか？'
   moods:
@@ -325,14 +325,14 @@ ja:
       add_group_leader: '%{name}は%{group_name}のリーダーになりました。'
       remove_group_leader: '%{name}は今から%{group_name}のリーダーじゃないです。'
     meeting:
-      new_meeting: '%{name}は%{group_name}で%{meeting_name}という会議を作成しました。'
-      remove_meeting: '%{name}は%{group_name}の%{meeting_name}という会議を取り止めました。'
-      update_meeting: '%{name}は%{group_name}の%{meeting_name}という会議を更新しました。'
-      join_meeting: '%{name}は%{group_name}の%{meeting_name}という会議に参加しました。'
+      new_meeting: '%{name}は%{group_name}で%{meeting_name}という会合を作成しました。'
+      remove_meeting: '%{name}は%{group_name}の%{meeting_name}という会合を取り止めました。'
+      update_meeting: '%{name}は%{group_name}の%{meeting_name}という会合を更新しました。'
+      join_meeting: '%{name}は%{group_name}の%{meeting_name}という会合に参加しました。'
     mailer:
       comment_on_moment_subject: 'if me | %{user}は%{moment}というモーメントについてをコメントしました。'
       comment_on_strategy_subject: 'if me | %{user}は%{strategy}という戦略についてをコメントしました。'
-      comment_on_meeting_subject: 'if me | %{user}は%{group_name}の%{meeting_name}という会議をコメントしました。'
+      comment_on_meeting_subject: 'if me | %{user}は%{group_name}の%{meeting_name}という会合をコメントしました。'
       comment_on_private_body: '<p>あなたの仲間<strong>%{user}</strong>私的にコメントしました：</p>'
       comment_on_body: '<p>あなたの仲間<strong>%{user}</strong>コメントしました：</p>'
       comment_text_cutoff: '<p><i>%{comment} [...]</i></p>'
@@ -346,13 +346,13 @@ ja:
       add_remove_group_leader_body: '<p>%{group}を詳しく見るには、 %{link}！</p>'
       remove_group_leader_you_subject: 'if me | あなたは%今から{group}のリーダーじゃありません'
       remove_group_leader_subject: 'if me | %{user}は今から%{group}のリーダーじゃありません'
-      update_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議を更新しました'
-      new_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議を作成しました'
+      update_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会合を更新しました'
+      new_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会合を作成しました'
       meeting_body: '<p>%{subject}</p><p><i>%{description}</i></p><p><strong>場所：</strong>%{location}</p><p><strong>日付：</strong>%{date}</p><p><strong>時間：</strong>%{time}</p>'
       new_meeting_link: '<p>詳しくは、%{link}！</p>'
       update_meeting_link: '<p>詳しくは、%{link}！</p>'
-      remove_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議をキャンセルしました'
-      join_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議を参加しました'
+      remove_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会合をキャンセルしました'
+      join_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会合を参加しました'
       join_meeting_body: '<p>%{meeting}を見るために、%{link}！</p>'
   omniauth:
     google: Google
@@ -390,7 +390,7 @@ ja:
       mood_question: '気分とは何ですか？'
       mood_answer: '<strong>%{mood}</strong>とは、気分、感情、感情の状態を表すタグです。'
       group_question: 'グループとは何ですか？'
-      group_answer: '<strong>%{group}</strong>では、メンタルヘルスに関するサポート、メンタリング、ディスカッションを提供しています。あなたはグループを作成することができ、仲間は参加することができます。仲間で作成されたグループだけ参加することができます。<br><br>グループのリーダーは<strong>会議</strong>が作成することができます。会議は場所と時間があります。場所は物理的な場所でも、GoogleハングアウトのURLでもかまいません。会議はコメントすることもできます。あなたがグループリーダーであれば、別のリーダーがいなければグループを立ち去ることはできません。グループは、唯一のメンバーである場合にのみ削除できます。'
+      group_answer: '<strong>%{group}</strong>では、メンタルヘルスに関するサポート、メンタリング、ディスカッションを提供しています。あなたはグループを作成することができ、仲間は参加することができます。仲間で作成されたグループだけ参加することができます。<br><br>グループのリーダーは<strong>会合</strong>が作成することができます。会合は場所と時間があります。場所は物理的な場所でも、GoogleハングアウトのURLでもかまいません。会合はコメントすることもできます。あなたがグループリーダーであれば、別のリーダーがいなければグループを立ち去ることはできません。グループは、唯一のメンバーである場合にのみ削除できます。'
       medications_question: '処方薬機能を使用するにはどうすればいいですか？'
       medications_answer: '<strong>%{medications}</strong>機能では、処方薬を記録することができます。また、症状を記録することもできます。'
       invite_question: '大切な人を招待するにはどうすればいいですか？'
