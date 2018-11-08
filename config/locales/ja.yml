@@ -6,7 +6,7 @@ ja:
   draft: 下書き
   edited: '作成%{created_at}（更新）'
   edited_updated_at: '作成%{created_at}（更新%{updated_at}）'
-  salutation: 'こんにちは%{name}さん、'
+  salutation: 'こんにちは、%{name}さん、'
   click_here: 'クリック'
   language: 言語
   yes_text: 'はい'
@@ -27,7 +27,7 @@ ja:
     fr: Français
     ja: 日本語
   navigation:
-    about: 'プロフィール'
+    about: 'if me について'
     blog: ブログ
     contribute: 貢献する
     partners: 提携
@@ -43,10 +43,10 @@ ja:
     give_feedback: フィードバックする
     press: 報道機関
     faq: よくある質問
-    resources: リーソス
+    resources: リソース
     code_of_conduct: 行動規範
   common:
-    name: 名前
+    name: 名
     you: あなた
     title: タイトル
     date: 日付
@@ -65,21 +65,38 @@ ja:
       add: 追加する
       add_all: 全て追加する
       select_all: 全て選択する
-      remove: 外す
+      remove: 消す
+      report: Report
     form:
       email: 電子メール
       location: 場所
       description: ディスクリプション
       error_explanation: 'マークされたフィールドに記入してください！'
-      press_enter: '追加するにはEnterキーを押します'
+      press_enter: '追加するにはEnterキーを押してください'
     time_ago: '%{date}前に'
-    write_to_us: '私たちにコンタクトしてください'
+    write_to_us: 'コンタクトする'
     days: 日
+  reports:
+    admin_dashboard: 'Admin Dashboard'
+    reported_users: 'Reported Users'
+    banned_users: 'Banned Users'
+    reasons: Reasons
+    new: 'New Report for %{name}'
+    remove_ban: 'Remove Ban'
+    ban_user: 'Ban User'
+    report_sent: 'Report for %{name} sent'
+    report_error: 'Could not send report for %{name}'
+    reportee: Reportee
+    reporter: Reporter
+    user_banned: '%{name} has been banned'
+    ban_removed: 'Ban removed on %{name}'
+    user_banned_error: 'Could not ban %{name}'
+    ban_removed_error: 'Could not remove ban on %{name}'
   comment:
     singular: コメント
     plural: コメント
     posting: 'コメントを投稿中…'
-    allow_comments: 'コメントを許可します？'
+    allow_comments: 'コメントを許可しますか？'
     hint: 'あなたと視聴者だけがコメントできます。'
     control: '表示したりコメントできるユーザーを制御します。'
   account:
@@ -119,15 +136,15 @@ ja:
       one: 'カテゴリー：'
       other: 'カテゴリー：'
     index:
-      subtitle: '人生は大変なので、人や場所や物をカテゴライズしましょう。'
+      subtitle: '人や場所や物をカテゴライズしましょう。'
       premade1_name: 家族
-      premade1_description: 家族に関係ある
+      premade1_description: 家族関係
       premade2_name: 友達
-      premade2_description: 友達に関係ある
+      premade2_description: 友達関係
       premade3_name: 仕事
-      premade3_description: 仕事に関係ある
+      premade3_description: 仕事関係
       premade4_name: 瞑想
-      premade4_description: '瞑想と深呼吸とリラックスのこと'
+      premade4_description: '瞑想、深呼吸、とリラックス関係'
       instructions: 'カスタム・カテゴリーはまだ作っていません。<br>後でカスタマイズしたら、この作り置きのカテゴリーを使えます。'
   errors:
     home_page: 'ホームページに戻る'
@@ -140,10 +157,10 @@ ja:
     plural: グループ
     form:
       leaders: リーダー
-      only_leader: 'リーダーはあなたしかないから、立ち去ることができません。'
+      only_leader: 'リーダーはあなたしかいませんので、立ち去ることができません。'
       cannot_delete: 'グループを削除することができません。'
       error_save: 'グループを保存できない理由は：'
-      error_edit_permission: 'グループのリーダーじゃないから編集できません。'
+      error_edit_permission: 'あなたはグループリーダーではありませんので編集できません。'
     index:
       subtitle: 'サポート、メンタリング、ディスカッションを提供するグループを作成し、参加します。'
       available_groups: '入れるグループ'
@@ -154,10 +171,10 @@ ja:
       success: 'このグループに入りました。'
       group_not_exists: '存在しないグループが入れません。'
     leave:
-      error: 'グループのリーダーはあなただけから、立ち去ることができません。'
+      error: 'グループリーダーはあなたしかいませんので、立ち去ることができません。'
       success: '%{group}を立ち去りました。'
       remove_member_success: '%{user}が%{group}から外しました。'
-      remove_member_error: 'リーダーではないからメンバーが外せません。'
+      remove_member_error: 'あなたはリーダーではありませんので、メンバーを外せません。'
     new: 新しいグループ
     show:
       led_by: 'リーダー：'
