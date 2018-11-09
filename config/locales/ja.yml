@@ -246,16 +246,16 @@ ja:
     singular: 会合
     edit_meeting: '会合を編集する'
     form:
-      location_placeholder: 'URLまたは住所'
-      maximum_members: '最大のメンバー'
-      maximum_placeholder: '最大がない場合は０'
+      location_placeholder: 'URLもしくは会合の住所'
+      maximum_members: '定員'
+      maximum_placeholder: '定員がない場合は０'
     join_success: 'この会合に参加しました。'
     info:
       cancel_meeting: '会合をキャンセルする'
-      meeting_time: 時間
+      meeting_time: 会合の時間
       members_of_group_html:
-        one: '%{group}メンバー%{count}人'
-        other: '%{group}メンバー%{count}人'
+        one: '%{count} Member of %{group}'
+        other: '%{count} Members of %{group}'
     reminder_mailer:
       subject: '%{meeting_name}という会合は明日%{time}にあります。'
       body: '忘れないでください。%{meeting_name}という会合は%{location}で%{time}に行います。'
@@ -275,13 +275,13 @@ ja:
       cancel_secret_share: '秘密シェアをキャンセルする'
     form:
       why: '何が起こりましたか？気分はどうですか？'
-      fix: 'どんな思考がほしいですか？'
+      fix: 'どうしたらいいと思いますか？'
       what_happened: '何が起こりましたか？'
       viewers_hint: 'モーメントが見える仲間'
-      draft_question: 'このモーメントは下書きを新規保管したいですか？'
+      draft_question: 'このモーメントの下書きを保存したいですか？'
     index:
-      subtitle: 'あなたのメンタルヘルスに影響を与えるイベントや状況、あなたのモーメントを深く探る。'
-      instructions: 'まだどんなモーメントについても書いていません。<br><br>最初は難しいですか？今日、あなたが大切な人と分かち合って議論したいことは何ですか？いいか悪いことができます。準備が整ったらすぐに共有する必要はありません。モーメントの例はこちらです。'
+      subtitle: 'あなたのメンタルヘルスに影響を与える出来事や状況を深く探る。'
+      instructions: 'まだモーメントについて何も書いていません。<br><br>最初は難しいですか？今日、あなたが大切な人と分かち合って話し合いたいことは何ですか？ポジテイブなことでもネガティブなことでも大丈夫です。モーメントを作成してもすぐに共有する必要はありません。モーメントの例はこちらです。'
       example_name: '明日の面接はやばいパニックになりそう！'
       example_category: キャリア
     show:
@@ -382,7 +382,7 @@ ja:
       data_access_question: '誰が私のデータをアクセスできますか？'
       data_access_answer: '第三者はデータを見えることができます。アカウントを消したら、全てのデータが取り除けられます。<br><br>ユーザーデータがカスタマイズした勧めのためにアプリの中で解析されました。'
       moment_question: 'モーメントとは何ですか？'
-      moment_answer: '<strong>%{moment}</strong>はメンタルヘルスを影響するイベントです。いいか悪いことができます。記事に似ってます。<br><br>戦略、カテゴリー、気分もタグできます。どちらの仲間が見える、コメントすることに選択できます。自分だけモーメントを見えることもできます。'
+      moment_answer: '<strong>%{moment}</strong>はメンタルヘルスを影響する出来事です。ポジテイブなことでもネガティブなことでも大丈夫です。記事に似ってます。<br><br>戦略、カテゴリー、気分もタグできます。どちらの仲間が見える、コメントすることに選択できます。自分だけモーメントを見えることもできます。'
       strategy_question: '戦略は何ですか？'
       strategy_answer: '<strong>%{strategy}</strong>は回復に対処するのに役立つアクティビティ、思考の訓練、または自己ケアの形式です。<br><br>戦略はカテゴリーにタグすることができます。 どの仲間が見ることができ、コメントするかを選択することもできます。また、戦略をあなたにしか見せないようにすることもできます。 共有戦略は、指定されたすべての仲間に見えるようになります。つまり、戦略にあなたのモーメントにタグを付けることができます！'
       category_question: 'カテゴリーとは何ですか？'
