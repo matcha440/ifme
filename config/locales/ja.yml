@@ -648,6 +648,7 @@ ja:
         labels:
           profile_picture: 'プロファイルの写真'
           remove_picture: '写真を削除する'
+          about: プロフィール
           password_for: '<strong>if me</strong>アカウントのパスワード'
           update: 保存する
         placeholders:
