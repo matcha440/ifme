@@ -77,21 +77,21 @@ ja:
     write_to_us: 'コンタクトする'
     days: 日
   reports:
-    admin_dashboard: 'Admin Dashboard'
-    reported_users: 'Reported Users'
-    banned_users: 'Banned Users'
-    reasons: Reasons
-    new: 'New Report for %{name}'
-    remove_ban: 'Remove Ban'
-    ban_user: 'Ban User'
-    report_sent: 'Report for %{name} sent'
-    report_error: 'Could not send report for %{name}'
-    reportee: Reportee
-    reporter: Reporter
-    user_banned: '%{name} has been banned'
-    ban_removed: 'Ban removed on %{name}'
-    user_banned_error: 'Could not ban %{name}'
-    ban_removed_error: 'Could not remove ban on %{name}'
+    admin_dashboard: 'アドミンダッシュボード'
+    reported_users: '報告されたユーザー'
+    banned_users: 'アクセス禁止のユーザー'
+    reasons: 理由
+    new: '%{name}新しい報告'
+    remove_ban: 'アクセス禁止を外します。'
+    ban_user: 'ユーザーをアクセス禁止します'
+    report_sent: '%{name}の報告が送られました。'
+    report_error: '%{name}の報告を送ることができませんでした。'
+    reportee: 報告されたユーザ＝
+    reporter: 報告者
+    user_banned: '%{name}がアクセス禁止されました'
+    ban_removed: '%{name}のアクセス禁止が外せました。'
+    user_banned_error: 'Could not ban %{name}をアクセス禁止することができませんでした'
+    ban_removed_error: '%{name}のアクセス禁止を外すことができませんでした'
   comment:
     singular: コメント
     plural: コメント
