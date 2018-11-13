@@ -66,7 +66,7 @@ ja:
       add_all: 全て追加する
       select_all: 全て選択する
       remove: 消す
-      report: Report
+      report: 報告する
     form:
       email: 電子メール
       location: 場所
@@ -77,20 +77,20 @@ ja:
     write_to_us: 'コンタクトする'
     days: 日
   reports:
-    admin_dashboard: 'アドミンダッシュボード'
+    admin_dashboard: '管理者ダッシュボード'
     reported_users: '報告されたユーザー'
     banned_users: 'アクセス禁止のユーザー'
     reasons: 理由
     new: '%{name}新しい報告'
     remove_ban: 'アクセス禁止を外します。'
-    ban_user: 'ユーザーをアクセス禁止します'
+    ban_user: 'ユーザーをアクセス禁止にします'
     report_sent: '%{name}の報告が送られました。'
     report_error: '%{name}の報告を送ることができませんでした。'
-    reportee: 報告されたユーザ＝
-    reporter: 報告者
+    reportee: 報告されたユーザー
+    reporter: 報告したユーザー
     user_banned: '%{name}がアクセス禁止されました'
-    ban_removed: '%{name}のアクセス禁止が外せました。'
-    user_banned_error: '%{name}をアクセス禁止することができませんでした'
+    ban_removed: '%{name}のアクセス禁止を外しました。'
+    user_banned_error: '%{name}をアクセス禁止にすることができませんでした'
     ban_removed_error: '%{name}のアクセス禁止を外すことができませんでした'
   comment:
     singular: コメント
@@ -306,15 +306,15 @@ ja:
       premade5_description: 'Feeling sad and hopeless - unable to find any possible solutions'
       instructions: 'You haven''t created any custom moods yet.<br>You can also add the following premade moods and customize them another time.'
   notifications:
-    plural: お知らせ
+    plural: 通知
     none: 'ありません'
-    clear: Clear
+    clear: クリアー
     created_by_html: '<strong>作成された</strong>：%{name}'
     preview: 'もっと見る'
     members:
       title: 'メンバーのリスト'
     ally:
-      accepted: '%{name}はあなたの仲間リクエストを受け入れました！'
+      accepted: '%{name}はあなたの仲間リクエストを確認しました！'
       sent_html: '%{link_to_user}は仲間リクエストを送りました！'
     comment:
       full: '%{name}は%{typename}について「%{comment}」をコメントしました。'
