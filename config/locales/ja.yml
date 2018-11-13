@@ -90,7 +90,7 @@ ja:
     reporter: 報告者
     user_banned: '%{name}がアクセス禁止されました'
     ban_removed: '%{name}のアクセス禁止が外せました。'
-    user_banned_error: 'Could not ban %{name}をアクセス禁止することができませんでした'
+    user_banned_error: '%{name}をアクセス禁止することができませんでした'
     ban_removed_error: '%{name}のアクセス禁止を外すことができませんでした'
   comment:
     singular: コメント
