@@ -354,6 +354,14 @@ ja:
       remove_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議をキャンセルしました'
       join_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議に参加しました'
       join_meeting_body: '<p>%{meeting}について、%{link}！</p>'
+      reported_user_subject: 'if me | あなたはユーザーを報告しました。'
+      reported_user_body: 'あなたは%{reported_name}を報告しました。これは管理者によってレビューされます。'
+      reportee_user_subject: 'if me | あなたは報告されました'
+      reportee_user_body: 'あなたは報告されました。これは管理者によってレビューされます。'
+      add_ban_subject: 'if me | あなたはアクセス禁止されています'
+      add_ban_body: 'あなたは%{code_of_conduct_link}に違反してアクセス禁止されています。'
+      remove_ban_subject: 'if me | アクセス禁止が外されました'
+      remove_ban_body: 'あなたは前に%{code_of_conduct_link}に違反してアクセス禁止されていました。もはや禁止されていません。'
   omniauth:
     google: Google
     access_denied: 'アクセスできません'
