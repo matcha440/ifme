@@ -308,13 +308,13 @@ ja:
   notifications:
     plural: 通知
     none: 'ありません'
-    clear: クリアー
-    created_by_html: '<strong>作成された</strong>：%{name}'
+    clear: クリア
+    created_by_html: '<strong>作成者</strong>：%{name}'
     preview: 'もっと見る'
     members:
       title: 'メンバーのリスト'
     ally:
-      accepted: '%{name}はあなたの仲間リクエストを確認しました！'
+      accepted: '%{name}はあなたの仲間リクエストを承認しました！'
       sent_html: '%{link_to_user}は仲間リクエストを送りました！'
     comment:
       full: '%{name}は%{typename}について「%{comment}」をコメントしました。'
@@ -323,18 +323,18 @@ ja:
       new_group: '%{name}は%{group_name}というグループを作りました。'
       new_group_member: '%{name}はあなたのグループ%{group_name}に入りました。'
       add_group_leader: '%{name}は%{group_name}のリーダーになりました。'
-      remove_group_leader: '%{name}は今から%{group_name}のリーダーじゃないです。'
+      remove_group_leader: '%{name}は今から%{group_name}のリーダーではありません。'
     meeting:
       new_meeting: '%{name}は%{group_name}で%{meeting_name}という会議を作成しました。'
       remove_meeting: '%{name}は%{group_name}の%{meeting_name}という会議を取り止めました。'
       update_meeting: '%{name}は%{group_name}の%{meeting_name}という会議を更新しました。'
       join_meeting: '%{name}は%{group_name}の%{meeting_name}という会議に参加しました。'
     mailer:
-      comment_on_moment_subject: 'if me | %{user}は%{moment}というモーメントについてをコメントしました。'
-      comment_on_strategy_subject: 'if me | %{user}は%{strategy}という作戦についてをコメントしました。'
-      comment_on_meeting_subject: 'if me | %{user}は%{group_name}の%{meeting_name}という会議をコメントしました。'
-      comment_on_private_body: '<p>あなたの仲間<strong>%{user}</strong>私的にコメントしました：</p>'
-      comment_on_body: '<p>あなたの仲間<strong>%{user}</strong>コメントしました：</p>'
+      comment_on_moment_subject: 'if me | %{user}は%{moment}というモーメントについてコメントをしました。'
+      comment_on_strategy_subject: 'if me | %{user}は%{strategy}という作戦についてコメントをしました。'
+      comment_on_meeting_subject: 'if me | %{user}は%{group_name}の%{meeting_name}という会議にコメントをしました。'
+      comment_on_private_body: '<p>あなたの仲間<strong>%{user}</strong>に非公開のコメントをしました：</p>'
+      comment_on_body: '<p>あなたの仲間<strong>%{user}</strong>コメントをしました：</p>'
       comment_text_cutoff: '<p><i>%{comment} [...]</i></p>'
       comment_text: '<p><i>%{comment}</i></p>'
       comment_link: '<p>読むために、%{link}!</p>'
@@ -344,16 +344,16 @@ ja:
       add_group_leader_you_subject: 'if me | あなたは%{group}のリーダーになりました'
       add_group_leader_subject: 'if me | %{user}は%{group}のリーダーになりました'
       add_remove_group_leader_body: '<p>%{group}を詳しく見るには、 %{link}！</p>'
-      remove_group_leader_you_subject: 'if me | あなたは%今から{group}のリーダーじゃありません'
-      remove_group_leader_subject: 'if me | %{user}は今から%{group}のリーダーじゃありません'
+      remove_group_leader_you_subject: 'if me | あなたは%今から{group}のリーダーではありません'
+      remove_group_leader_subject: 'if me | %{user}は今から%{group}のリーダーではありません'
       update_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議を更新しました'
       new_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議を作成しました'
       meeting_body: '<p>%{subject}</p><p><i>%{description}</i></p><p><strong>場所：</strong>%{location}</p><p><strong>日付：</strong>%{date}</p><p><strong>時間：</strong>%{time}</p>'
       new_meeting_link: '<p>詳しくは、%{link}！</p>'
       update_meeting_link: '<p>詳しくは、%{link}！</p>'
       remove_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議をキャンセルしました'
-      join_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議を参加しました'
-      join_meeting_body: '<p>%{meeting}を見るために、%{link}！</p>'
+      join_meeting_subject: 'if me | %{user}は%{group}の%{meeting}という会議に参加しました'
+      join_meeting_body: '<p>%{meeting}について、%{link}！</p>'
   omniauth:
     google: Google
     access_denied: 'アクセスできません'
