@@ -302,9 +302,9 @@ ja:
       premade3_description: 'Feeling curious about uncertainty'
       premade4_name: Resentful
       premade4_description: 'Not accepting certain facts, feeling angry, vengeful, and/or jealous'
-      premade5_name: Hopeless
+      premade5_name: 切望
       premade5_description: 'Feeling sad and hopeless - unable to find any possible solutions'
-      instructions: 'You haven''t created any custom moods yet.<br>You can also add the following premade moods and customize them another time.'
+      instructions: '気分はまだ作成しませんでした。<br>You can also add the following premade moods and customize them another time.'
   notifications:
     plural: 通知
     none: 'ありません'
@@ -664,8 +664,8 @@ ja:
           about: '自己紹介しましょう！どしてここにきました？何が探していますか？他のユーザーは検索のときこれが見えます。'
           required: 必要
         delete:
-          text: '<strong>if me</strong>はだめですか？'
-          button: '恒久にアカウントを消す'
+          text: '<strong>if me</strong>のアカウントを削除したいですか？'
+          button: '恒久にアカウントを削除する'
           confirm: 'よろしいですか？データは全部なくなるけど、いつもまた登録できます。'
       new:
         subtitle: 'Start telling your stories and maintaining your health in a safe, private space'
