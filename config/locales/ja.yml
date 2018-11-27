@@ -406,18 +406,18 @@ ja:
       email_notifications_question: '電子メール通知を変更するにはどうすればよいですか？'
       email_notifications_answer: '<strong>%{accounts}</strong>に行ってください。電子メール、パスワード、プロフィール画像、プロフィールを変更することができます。アカウントを削除することもできます。アカウントを削除すると、すべてのデータが削除されます。'
     home:
-      stories: Stories
+      stories: 話
       not_signed_in:
-        main_message_one: 'Better communication with loved ones leads to better mental health.'
+        main_message_one: 'よく大切な人と話すことは、いいメンタルヘルスにつながります。'
         message_text_one: 'We need each other''s support to break down stigmas.'
         message_one: 'Share your stories with loved ones and get the support you deserve'
-        message_two: 'Be you, no strings attached and with security and privacy'
+        message_two: '自分に正直であります。セキュリティとプライバシーがあります。'
         message_three: 'Document your moods, medications, and self-care'
         main_message_two: 'We are open source because mental health should be open.'
         message_text_two: 'We are <strong>always</strong> looking for your %{help} and %{feedback}!'
         help: help
       signed_in_empty:
-        main_message_one: 'Hello %{name}!'
+        main_message_one: 'こんにちは、%{name}！'
         message_text_one: 'Here''s how you can start sharing your stories.'
         main_message_two: 'Tell us about yourself.'
         cell_one: 'Customize your %{profile} - add a bio and profile picture<br>Add custom %{moods} to best describe your emotions<br>Add %{allies} - friends, family, and others who you want to share with'
