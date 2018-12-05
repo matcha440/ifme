@@ -72,7 +72,7 @@ ja:
       location: 場所
       description: ディスクリプション
       error_explanation: 'マークされたフィールドに記入してください！'
-      press_enter: '追加するにはEnterキーを押してください'
+      search_by_keywords: 'Search by keyword'
     time_ago: '%{date}前に'
     write_to_us: 'コンタクトする'
     days: 日
@@ -291,20 +291,20 @@ ja:
     plural: 気分
     edit_mood: '気分を編集する'
     new: '新しい気分'
-    example_moods: '不安、ハラハラ、楽観的'
+    example_moods: '心配、不安、希望的'
     index:
-      subtitle: 'あなたの心の状態、気分、感情を記述するタグを作成します。'
-      premade1_name: 承諾
-      premade1_description: '事実には平和にいます。'
+      subtitle: 'あなたの気分と感情を記述するタグを作る。'
+      premade1_name: 認めている
+      premade1_description: '違いや制限を認めている。'
       premade2_name: 野心的
-      premade2_description: '目標には希望があります。'
-      premade3_name: 好奇心
-      premade3_description: '不確実性を知りたいです。'
+      premade2_description: '目標を達成する希望がある。'
+      premade3_name: 気になっている
+      premade3_description: '何何が知りたい'
       premade4_name: 恨みがましい
-      premade4_description: '事実を否定します。怒り、恨み、嫉妬を感じます。'
+      premade4_description: '事実を否定している。怒り、恨み、嫉妬などを感じている。'
       premade5_name: 切望的
-      premade5_description: '悲しい感じです。何もできないと考えます。'
-      instructions: '気分はまだ作成しませんでした。<br>後でカスタマイズしたら、この作り置きの気分を使えます。'
+      premade5_description: '悲しい。何もできないと考えざるが得ない。'
+      instructions: '気分はまだ作成してません。<br>後でカスタマイズしたら、この作り置きの気分を使えます。'
   notifications:
     plural: 通知
     none: 'ありません'
@@ -406,6 +406,10 @@ ja:
       email_notifications_question: '電子メール通知を変更するにはどうすればよいですか？'
       email_notifications_answer: '<strong>%{accounts}</strong>に行ってください。電子メール、パスワード、プロフィール画像、プロフィールを変更することができます。アカウントを削除することもできます。アカウントを削除すると、すべてのデータが削除されます。'
     home:
+      update_pwd_modal:
+        title: 'Update password'
+        body: 'We have enforced better security measures for our users, please %{update_password_link}'
+        update_link: 'update your password.'
       stories: 話
       not_signed_in:
         main_message_one: 'よく大切な人と話すことは、いいメンタルヘルスにつながります。'
@@ -524,6 +528,7 @@ ja:
         sexual_assault_survivors: 'sexual assault survivors'
         political_movement: 'political movement'
         reporting: reporting
+        game: game
   profile:
     index:
       title: プロフィール
@@ -649,7 +654,9 @@ ja:
       meeting_notify_text: 'Meeting updates'
       google_auth1: 'If you no longer want to be authenticated with Google, please enter a new email and password.'
       google_auth2: 'Since you are authenticated with Google, you do not need to enter your password.<br>If you want to change this, please enter a new email and password.'
-      password_complexity_error: 'should contain 8 to 128 characters, including 1 uppercase, 1 lowercase, 1 digit, and 1 special character.'
+      password_errors:
+        format: 'should contain 8 to 128 characters, including 1 uppercase, 1 lowercase, 1 digit, and 1 special character.'
+        used: 'must be different from last three passwords.'
       placeholders:
         repeat_password: 'もう一回パスワード'
       edit:
