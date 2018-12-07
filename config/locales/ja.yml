@@ -407,9 +407,9 @@ ja:
       email_notifications_answer: '<strong>%{accounts}</strong>に行ってください。電子メール、パスワード、プロフィール画像、プロフィールを変更することができます。アカウントを削除することもできます。アカウントを削除すると、すべてのデータが削除されます。'
     home:
       update_pwd_modal:
-        title: 'Update password'
-        body: 'We have enforced better security measures for our users, please %{update_password_link}'
-        update_link: 'update your password.'
+        title: 'パスワードを変更する'
+        body: 'セキュリティのために、%{update_password_link}'
+        update_link: 'パスワードを変更してください。'
       stories: 話
       not_signed_in:
         main_message_one: 'よく大切な人と話すことは、いいメンタルヘルスにつながります。'
@@ -423,15 +423,15 @@ ja:
       signed_in_empty:
         main_message_one: 'こんにちは、%{name}！'
         message_text_one: 'Here''s how you can start sharing your stories.'
-        main_message_two: 'Tell us about yourself.'
+        main_message_two: '自分のことに教えてください。'
         cell_one: 'Customize your %{profile} - add a bio and profile picture<br>Add custom %{moods} to best describe your emotions<br>Add %{allies} - friends, family, and others who you want to share with'
         main_message_three: 'Write your stories.'
         cell_two: 'Create custom %{categories} to help organize your moments<br>Write about the %{moments} - the events and situations that affect your mental health'
         main_message_four: 'Take care of yourself.'
         cell_three: '%{strategize} your self-care plan!<br>Currently taking %{medications}? Keep track of it and create reminders!<br>Need extra support? Join or create a %{group} to open up'
-        main_message_five: 'Have any questions or concerns?'
-        message_text_three: 'Check out our %{faq} page or %{email_link}!'
-        strategize: Strategize
+        main_message_five: '質問がありますか？'
+        message_text_three: '%{faq}のページを読んでください。または、%{email_link}！'
+        strategize: 作戦する
     partners:
       description: 'These are the incredible organizations we are inspired by and have had the privilege of working with. We would love to work with your organization, email us at %{email}.'
     privacy:
