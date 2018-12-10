@@ -607,10 +607,10 @@ ja:
       subject: 'Don''t forget to perform %{name}!'
       body: 'Here''s a friendly reminder to perform %{name}!'
   stats:
-    total_moments: 'You have written a <strong>total</strong> of <strong>%{count}</strong> moments.'
-    total_moment: 'You have written a <strong>total</strong> of <strong>%{count}</strong> moment.'
-    monthly_moments: 'This <strong>month</strong> you wrote <strong>%{count}</strong> moments.'
-    monthly_moment: 'This <strong>month</strong> you wrote <strong>%{count}</strong> moment.'
+    total_moments: 'あなたは<strong>%{count}個</strong>のモーメントを書きました。'
+    total_moment: 'あなたは<strong>%{count}個</strong>のモーメントを書きました。'
+    monthly_moments: '<strong>今月</strong>あなたは<strong>%{count}個</strong>のモーメントを書きました。'
+    monthly_moment: '<strong>今月</strong>あなたは<strong>%{count}個</strong>のモーメントを書きました。'
   warnings:
     no_description: 'You didn''t write a description!'
     yes_description: 'Writing one can help you and others better understand in detail'
