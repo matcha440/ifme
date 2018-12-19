@@ -380,7 +380,7 @@ ja:
     blog:
       description: '私たちのために書くことに興味があるなら、%{email}で連絡してください！匿名の投稿も歓迎されます。'
     contribute:
-      contributor_avatar_alt: 'Contributor biography for %{name}'
+      contributor_avatar_alt: '%{name}のプロフィール'
       main_message_one: 'if meはさまざまな背景とスキルセットのボランティアによって作成され維持されています。'
       message_text_one: '<strong>精神保健擁護家</strong>、<strong>医療従事者</strong>、<strong>ソフトウェア開発者</strong>、<strong>翻訳者</strong>、<strong>ユーザーエクスペリエンスデザイナー</strong>など、誰もが常にアイデアを探しています！<p class="noMarginBottom">貢献したかったら、%{email_link}！主要なコミュニケーションツールである%{slack_link}ページに参加するように招待されます。%{github_link}でホストされているリポジトリをフォークしてください！</p>'
       more_contributors: 'もっと素晴らしい貢献者！'
@@ -414,13 +414,13 @@ ja:
       stories: 話
       not_signed_in:
         main_message_one: 'よく大切な人と話すことは、いいメンタルヘルスにつながります。'
-        message_text_one: 'We need each other''s support to break down stigmas.'
-        message_one: 'Share your stories with loved ones and get the support you deserve'
+        message_text_one: '私たちはお互いの支持を必要としています。'
+        message_one: 'サポートのために、大切な人と一緒に話を分かち合います。'
         message_two: '自分に正直であります。セキュリティとプライバシーがあります。'
-        message_three: 'Document your moods, medications, and self-care'
-        main_message_two: 'We are open source because mental health should be open.'
-        message_text_two: 'We are <strong>always</strong> looking for your %{help} and %{feedback}!'
-        help: help
+        message_three: '気分と薬とセルフケアを文書化します。'
+        main_message_two: 'メンタルヘルスは正直でなければならないため、オーペンソースです。'
+        message_text_two: '%{help}と%{feedback}は<strong>常に</strong>歓迎します。'
+        help: 支援
       signed_in_empty:
         main_message_one: 'こんにちは、%{name}！'
         message_text_one: 'Here''s how you can start sharing your stories.'
